@@ -9,7 +9,6 @@ module.exports = {
   output: {
     filename: './dist/index.js',
     path: __dirname,
-    libraryExport: 'default',
     libraryTarget: 'commonjs2',
   },
   externals: nodeExternals({
